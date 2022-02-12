@@ -44,10 +44,10 @@ for i in range(0, n):
         if sorted(input_string[:halve]) == sorted(input_string[halve:]):
             print('YES')               # print 'YES' if condition true
         else:
-            print('NO')                # print 'NO' if condition true
+            print('NO')
     else:
         if sorted(input_string[:halve]) == sorted(input_string[halve + 1:]):  # check both part are same or not
             print('YES')               # print 'YES' if condition true
         else:
-            print('NO')                # print 'NO' if condition true
+            print('NO')
 
